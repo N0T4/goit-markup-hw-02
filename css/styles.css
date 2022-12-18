@@ -48,6 +48,9 @@ body{
         color: #FFFFFF;
         background-color: var(--color-brend2);}
 .title{
+    line-height: 24px;
+    font-family: 'Roboto';
+        font-style: normal;
         font-weight: 600;
         font-size: 20px;
         letter-spacing: 0.02em;
@@ -84,7 +87,6 @@ body{
 .project,
 .sub-info,
 .foot-text,
-.title,
 .information{
     font-family: 'Roboto';
         font-style: normal;
