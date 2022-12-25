@@ -5,6 +5,9 @@
     --color-extrainfo: #434455;
     --color-second-white:#F4F4FD;
 }
+*{
+    margin: 0;
+}
 body{
     background: white;
 }
@@ -18,14 +21,14 @@ body{
     color: var(--color-brend);
 
 }
-
+.information{
+    margin-top: 8px;
+}
 .conteiner{
     margin: 0 auto;
     width: 1440px;
 }
 .header{
-    border: black;
-    border-style: dashed;
     display: flex;
     justify-content: space-between;
 }
@@ -75,11 +78,16 @@ display: flex;
     height: 603px;
     justify-content: center;
     align-items: center;
+   
 }
 .hero-block{
- 
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 496px;
 }
+
 .our-team{
     background: #F4F4FD;
 }
@@ -98,16 +106,33 @@ display: flex;
 }
 
 .hero{
+    margin-top: 0;
+ margin-bottom: 48px;
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 600;
         font-size: 56px;
         line-height: 60px;
-
+        text-align: center;
         letter-spacing: 0.02em;
         color: #FFFFFF;
 
-        }
+}
+.block-features{
+    padding: 120px 156px;
+    display: flex;
+}
+
+.block:nth-child(-n + 3){
+    margin-right: 40px;
+}
+.features{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
 .title{
     line-height: 24px;
     font-family: 'Roboto';
