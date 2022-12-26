@@ -58,6 +58,7 @@ display: flex;
     display: flex;
     align-items: center;
 }
+
 .logo{
     display: flex;
         flex-direction: row;
@@ -268,7 +269,35 @@ button:focus{
 .order-button:focus{
     background: #404BBF;
 }
+.list-block{
+    margin-bottom: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.list-project{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1128px;
+}
+.portfolio-project{
+   
+    justify-content: center;
+        display: inline-block;
+        text-align: center;
+    width: 360px;
+}
+.portfolio-text{
+    padding-left: 16px;
+    padding-top: 32px;
+        padding-bottom: 32px;
+    text-align: start;
+}
+.project:nth-child(-n + 5){
+    margin-bottom: 48px;
+}
 .project{    
     background: #FFFFFF;
     
@@ -276,7 +305,9 @@ button:focus{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
     font-family: 'Roboto';
         font-weight: 600;
-        font-size: 20px;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
         color: var(--color-brend2);
 }
 .sub-info{
